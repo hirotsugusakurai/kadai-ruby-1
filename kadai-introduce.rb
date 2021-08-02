@@ -1,14 +1,13 @@
 myouji = '櫻井'
 namae = '大嗣'
-gobi = 'です。'
-namaesyoukai = myouji + namae + gobi
+namaesyoukai = myouji + namae
+puts  namaesyoukai
+puts  'です。'
 
 nennrei = 22
-gobi = '歳です'
-nennreisyoukai = nennrei.to_s + gobi
+puts nennrei.to_s 
+puts '歳です'
 
-jikosyoukai = namaesyoukai + nennreisyoukai
-puts jikosyoukai
 
 
 
